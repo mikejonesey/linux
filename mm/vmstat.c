@@ -1106,7 +1106,7 @@ int fragmentation_index(struct zone *zone, unsigned int order)
 					TEXT_FOR_HIGHMEM(xx) xx "_movable",
 
 const char * const vmstat_text[] = {
-	/* enum zone_stat_item countes */
+	/* enum zone_stat_item counters */
 	"nr_free_pages",
 	"nr_zone_inactive_anon",
 	"nr_zone_active_anon",
